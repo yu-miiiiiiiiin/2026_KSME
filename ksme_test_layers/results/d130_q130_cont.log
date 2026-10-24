@@ -1,0 +1,5 @@
+d130_q130_cont {'iter': 0, 'residual_uN': 0.958276248182106, 'min_stiffness_N_m': -0.00013062292464220064}
+d130_q130_cont {'iter': 1, 'residual_uN': 0.948560639333659, 'min_stiffness_N_m': -0.00013832968081498606}
+d130_q130_cont {'iter': 2, 'residual_uN': 0.9344862664334724, 'min_stiffness_N_m': -0.0001477770693316572}
+d130_q130_cont {'iter': 3, 'residual_uN': 0.7963001318009721, 'min_stiffness_N_m': -0.00020139781088974277}
+d130_q130_cont {'iter': 4, 'residual_uN': 0.7166593514847255, 'min_stiffness_N_m': -0.00020958701424381745}

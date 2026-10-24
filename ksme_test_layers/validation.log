@@ -1,0 +1,77 @@
+
+[V1] Gor'kov 복사력 — 단독 유닛 vs 기존 단일 액적 연구
+  안티노드 |p|   =  2400.0 Pa   (기존 2400)
+  축방향 F_z,max =  64.672 uN   (기존 64.68, 차이 -0.01 %)
+  횡방향 F_x,max =   7.873 uN   (기존 7.85, 차이 +0.29 %)
+
+[V2] 액적별 항력 vs Schiller-Naumann 상관식
+      U   액적   z[mm]  Re_loc   Cd_CFD  Cd_corr       차이
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+    0.5    0    2.32      74   1.3932   1.2595   +10.6 %
+    0.5    1    7.02      70   1.4309   1.2973   +10.3 %
+    0.5    2   11.73      63   1.4794   1.3681    +8.1 %
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+    1.5    0    2.32     222   0.8132   0.7713    +5.4 %
+    1.5    1    7.02     209   0.8286   0.7906    +4.8 %
+    1.5    2   11.73     188   0.8510   0.8263    +3.0 %
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+    2.5    0    2.32     370   0.6169   0.6301    -2.1 %
+    2.5    1    7.02     349   0.6420   0.6448    -0.4 %
+    2.5    2   11.73     314   0.6877   0.6720    +2.3 %
+
+[V3] 단일 액적 대조군 — 기존 연구값 재구성 및 상관식 대조
+Info    : Reading '../ksme_test/mesh_r4.msh'...
+Info    : 34 entities
+Info    : 5235 nodes
+Info    : 30283 elements
+Info    : Done reading '../ksme_test/mesh_r4.msh'
+  정확(미러링) : 포집 536/6000  A_cap = 1.123 ± 0.046 mm2   eta = 0.357
+  기존값 재구성 : πa²/2 + A/2 = 2.132 mm2  vs 기존 실측 2.166 mm2  (차이 +1.6 %)
+  -> 기존 연구는 흡착율을 1.93 배 과대평가했다
+  고전 관성충돌 상관식 (St=0.460) : (St/(St+0.5))² = 0.230 ~ St²/(St+0.25)² = 0.420
+  -> 정확값 0.357 는 상관식 범위 안에 있음
+
+[V4] 격자 보간 프로브 vs 정확 FE 프로브
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  정확 FE    : A_col = 7.242 mm2  (구성 0.1s, 전체 117.2s)
+    격자 h=800 um : 8,610점 (FE 적중 89.8 %)
+    격자 h=250 um : 75,701점 (FE 적중 99.4 %)
+    격자 h=80 um : 446,880점 (FE 적중 97.1 %)
+  격자보간     : A_col = 7.350 mm2  (구성 16.8s, 전체 21.2s)
+  차이 +1.50 %   가속 5.5 배
+
+[V5] 시간간격 / 입자 수 민감도
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  dt x2.0 (133.3 us,   416 step): A_col = 7.047 mm2
+  dt x1.0 ( 66.7 us,   832 step): A_col = 7.047 mm2
+  dt x0.5 ( 33.3 us,  1664 step): A_col = 7.047 mm2
+  입자  1200: A_col = 5.810 ± 0.493 mm2
+  입자  3000: A_col = 6.575 ± 0.331 mm2
+  입자  6000: A_col = 7.129 ± 0.242 mm2
+
+============================================================
+  V1: PASS
+  V2: PASS
+  V3: PASS
+  V4: PASS
+  V5: PASS

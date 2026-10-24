@@ -1,0 +1,49 @@
+{
+  "reserve": 0.2,
+  "n_droplets": 120,
+  "Q_stiffness_limit_pC": 84.78196570828393,
+  "cases": [
+    {
+      "U": 0.5,
+      "Q_max_pC": 33.75169714021773,
+      "displacement_escape_fraction": 0.12501466695830796,
+      "max_displacement_mm": 0.49953327403676695,
+      "axial_utilization": 0.7999999999999986,
+      "lateral_utilization": 0.11716822505031971,
+      "side_utilization": 0.008297522660544064,
+      "stiffness_fraction": 0.873213137605904,
+      "pass_screen": true
+    },
+    {
+      "U": 1.0,
+      "Q_max_pC": 33.75169714021773,
+      "displacement_escape_fraction": 0.3474171209158024,
+      "max_displacement_mm": 1.38645528856614,
+      "axial_utilization": 0.7999999999999986,
+      "lateral_utilization": 0.31719653215482047,
+      "side_utilization": 0.008297522660544064,
+      "stiffness_fraction": 0.873213137605904,
+      "pass_screen": true
+    },
+    {
+      "U": 1.5,
+      "Q_max_pC": 33.75169714021773,
+      "displacement_escape_fraction": 0.6452356256117555,
+      "max_displacement_mm": 2.574630685794244,
+      "axial_utilization": 0.7999999999999986,
+      "lateral_utilization": 0.5851057954564587,
+      "side_utilization": 0.008297522660544064,
+      "stiffness_fraction": 0.873213137605904,
+      "pass_screen": true
+    },
+    {
+      "U": 2.0,
+      "Q_max_pC": 0.0,
+      "axial_utilization": 0.7875080838248123,
+      "lateral_utilization": 0.91158201996417,
+      "side_utilization": 0.0,
+      "stiffness_fraction": 1.0,
+      "pass_screen": false
+    }
+  ]
+}

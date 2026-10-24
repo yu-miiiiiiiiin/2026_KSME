@@ -1,0 +1,5 @@
+equilibrium_nominal {'iter': 0, 'residual_uN': 2.1669191014791314, 'min_stiffness_N_m': 0.0012329286737001982}
+equilibrium_nominal {'iter': 1, 'residual_uN': 1.501859873509157, 'min_stiffness_N_m': 0.0012492282505081043}
+equilibrium_nominal {'iter': 2, 'residual_uN': 0.7792992276585733, 'min_stiffness_N_m': 0.0012299003780478436}
+equilibrium_nominal {'iter': 3, 'residual_uN': 0.17321264561715538, 'min_stiffness_N_m': 0.0011904621036617487}
+equilibrium_nominal {'iter': 4, 'residual_uN': 0.00208369865530196, 'min_stiffness_N_m': 0.0011721837558952136}

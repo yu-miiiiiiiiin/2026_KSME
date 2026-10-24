@@ -1,0 +1,5 @@
+equilibrium_zero_reserve {'iter': 0, 'residual_uN': 10.560688365838587, 'min_stiffness_N_m': 0.0013309787241282194}
+equilibrium_zero_reserve {'iter': 1, 'residual_uN': 7.4338424703762715, 'min_stiffness_N_m': 0.0010000647986976676}
+equilibrium_zero_reserve {'iter': 2, 'residual_uN': 5.444146277850833, 'min_stiffness_N_m': 0.0006780827842930241}
+equilibrium_zero_reserve {'iter': 3, 'residual_uN': 4.452853845950211, 'min_stiffness_N_m': 0.00034928868144099}
+equilibrium_zero_reserve {'iter': 4, 'residual_uN': 4.175083194378998, 'min_stiffness_N_m': -4.052593107523348e-05}

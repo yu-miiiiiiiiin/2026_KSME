@@ -1,0 +1,3 @@
+d130_q125_cont {'iter': 0, 'residual_uN': 1.8185256021412655, 'min_stiffness_N_m': 0.000258969454367103}
+d130_q125_cont {'iter': 1, 'residual_uN': 0.6805042634464528, 'min_stiffness_N_m': 0.00034465644736737935}
+d130_q125_cont {'iter': 2, 'residual_uN': 0.007292570540083719, 'min_stiffness_N_m': 0.0003839263994615394}

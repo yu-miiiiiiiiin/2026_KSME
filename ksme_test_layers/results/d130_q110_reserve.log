@@ -1,0 +1,7 @@
+d130_q110_reserve {'iter': 0, 'residual_uN': 27.56838960929406, 'min_stiffness_N_m': 1.0957575837662947e-05}
+d130_q110_reserve {'iter': 1, 'residual_uN': 26.996587860531427, 'min_stiffness_N_m': 4.1297793938974955e-05}
+d130_q110_reserve {'iter': 2, 'residual_uN': 26.42474208491208, 'min_stiffness_N_m': 0.00016783664866048092}
+d130_q110_reserve {'iter': 3, 'residual_uN': 22.401087898683635, 'min_stiffness_N_m': 0.0004892998053386632}
+d130_q110_reserve {'iter': 4, 'residual_uN': 12.86413736554943, 'min_stiffness_N_m': 0.00117390254362829}
+d130_q110_reserve {'iter': 5, 'residual_uN': 1.0517046040683256, 'min_stiffness_N_m': 0.0016272278363433092}
+d130_q110_reserve {'iter': 6, 'residual_uN': 0.006101878198977004, 'min_stiffness_N_m': 0.001662027418330147}

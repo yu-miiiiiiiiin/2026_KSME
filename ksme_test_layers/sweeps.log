@@ -1,0 +1,319 @@
+[입자용 음향력 격자 사전계산]
+  격자점 176,435, 최대 |F_ac,입자| = 7.251 pN (입자 무게 10.273 pN), 1.3s
+
+=== [실험1] U = 0.5 m/s | 실현 1/5 ===
+Info    : Reading 'mesh_col_r0.msh'...
+Info    : 48 entities
+Info    : 14008 nodes
+Info    : 81198 elements
+Info    : Done reading 'mesh_col_r0.msh'
+  항력(액적 z>0) 0.82 0.75 0.63 uN | 기둥합 4.39 uN | Cd 오차 +10.7 %
+  A_col = 0.715 mm2 (직접법 0.672) | 부양 60/60 | 제거율 0.106 % | C_out 9.989 mg/m3 | dP 0.0065 Pa
+  435s
+
+=== [실험1] U = 0.5 m/s | 실현 2/5 ===
+Info    : Reading 'mesh_col_r1.msh'...
+Info    : 48 entities
+Info    : 12100 nodes
+Info    : 69874 elements
+Info    : Done reading 'mesh_col_r1.msh'
+  항력(액적 z>0) 0.82 0.75 0.63 uN | 기둥합 4.39 uN | Cd 오차 +10.7 %
+  A_col = 0.765 mm2 (직접법 0.448) | 부양 60/60 | 제거율 0.113 % | C_out 9.989 mg/m3 | dP 0.0065 Pa
+  402s
+
+=== [실험1] U = 0.5 m/s | 실현 3/5 ===
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  항력(액적 z>0) 0.82 0.75 0.62 uN | 기둥합 4.38 uN | Cd 오차 +10.6 %
+  A_col = 0.769 mm2 (직접법 0.560) | 부양 60/60 | 제거율 0.114 % | C_out 9.989 mg/m3 | dP 0.0065 Pa
+  364s
+
+=== [실험1] U = 0.5 m/s | 실현 4/5 ===
+Info    : Reading 'mesh_col_r3.msh'...
+Info    : 48 entities
+Info    : 9383 nodes
+Info    : 53655 elements
+Info    : Done reading 'mesh_col_r3.msh'
+  항력(액적 z>0) 0.82 0.75 0.62 uN | 기둥합 4.37 uN | Cd 오차 +10.5 %
+  A_col = 0.780 mm2 (직접법 0.616) | 부양 60/60 | 제거율 0.116 % | C_out 9.988 mg/m3 | dP 0.0065 Pa
+  331s
+
+=== [실험1] U = 0.5 m/s | 실현 5/5 ===
+Info    : Reading 'mesh_col_r4.msh'...
+Info    : 48 entities
+Info    : 8341 nodes
+Info    : 47611 elements
+Info    : Done reading 'mesh_col_r4.msh'
+  항력(액적 z>0) 0.82 0.74 0.62 uN | 기둥합 4.37 uN | Cd 오차 +10.3 %
+  A_col = 0.840 mm2 (직접법 0.616) | 부양 60/60 | 제거율 0.124 % | C_out 9.988 mg/m3 | dP 0.0065 Pa
+  311s
+
+=== [실험1] U = 1.0 m/s | 실현 1/5 ===
+Info    : Reading 'mesh_col_r0.msh'...
+Info    : 48 entities
+Info    : 14008 nodes
+Info    : 81198 elements
+Info    : Done reading 'mesh_col_r0.msh'
+  항력(액적 z>0) 2.30 2.10 1.74 uN | 기둥합 12.29 uN | Cd 오차 +7.0 %
+  A_col = 4.159 mm2 (직접법 3.528) | 부양 60/60 | 제거율 0.614 % | C_out 9.939 mg/m3 | dP 0.0183 Pa
+  255s
+
+=== [실험1] U = 1.0 m/s | 실현 2/5 ===
+Info    : Reading 'mesh_col_r1.msh'...
+Info    : 48 entities
+Info    : 12100 nodes
+Info    : 69874 elements
+Info    : Done reading 'mesh_col_r1.msh'
+  항력(액적 z>0) 2.31 2.10 1.75 uN | 기둥합 12.30 uN | Cd 오차 +7.0 %
+  A_col = 4.046 mm2 (직접법 3.752) | 부양 60/60 | 제거율 0.598 % | C_out 9.940 mg/m3 | dP 0.0183 Pa
+  202s
+
+=== [실험1] U = 1.0 m/s | 실현 3/5 ===
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  항력(액적 z>0) 2.30 2.09 1.74 uN | 기둥합 12.27 uN | Cd 오차 +6.8 %
+  A_col = 4.156 mm2 (직접법 4.200) | 부양 60/60 | 제거율 0.614 % | C_out 9.939 mg/m3 | dP 0.0183 Pa
+  174s
+
+=== [실험1] U = 1.0 m/s | 실현 4/5 ===
+Info    : Reading 'mesh_col_r3.msh'...
+Info    : 48 entities
+Info    : 9383 nodes
+Info    : 53655 elements
+Info    : Done reading 'mesh_col_r3.msh'
+  항력(액적 z>0) 2.30 2.09 1.73 uN | 기둥합 12.24 uN | Cd 오차 +6.8 %
+  A_col = 4.238 mm2 (직접법 3.248) | 부양 60/60 | 제거율 0.626 % | C_out 9.937 mg/m3 | dP 0.0182 Pa
+  159s
+
+=== [실험1] U = 1.0 m/s | 실현 5/5 ===
+Info    : Reading 'mesh_col_r4.msh'...
+Info    : 48 entities
+Info    : 8341 nodes
+Info    : 47611 elements
+Info    : Done reading 'mesh_col_r4.msh'
+  항력(액적 z>0) 2.30 2.08 1.74 uN | 기둥합 12.24 uN | Cd 오차 +6.6 %
+  A_col = 4.256 mm2 (직접법 4.928) | 부양 60/60 | 제거율 0.628 % | C_out 9.937 mg/m3 | dP 0.0182 Pa
+  147s
+
+=== [실험1] U = 1.5 m/s | 실현 1/5 ===
+Info    : Reading 'mesh_col_r0.msh'...
+Info    : 48 entities
+Info    : 14008 nodes
+Info    : 81198 elements
+Info    : Done reading 'mesh_col_r0.msh'
+  항력(액적 z>0) 4.32 3.91 3.24 uN | 기둥합 22.92 uN | Cd 오차 +5.6 %
+  A_col = 6.866 mm2 (직접법 6.048) | 부양 60/60 | 제거율 1.013 % | C_out 9.899 mg/m3 | dP 0.0341 Pa
+  244s
+
+=== [실험1] U = 1.5 m/s | 실현 2/5 ===
+Info    : Reading 'mesh_col_r1.msh'...
+Info    : 48 entities
+Info    : 12100 nodes
+Info    : 69874 elements
+Info    : Done reading 'mesh_col_r1.msh'
+  항력(액적 z>0) 4.31 3.90 3.25 uN | 기둥합 22.93 uN | Cd 오차 +5.6 %
+  A_col = 6.504 mm2 (직접법 6.944) | 부양 60/60 | 제거율 0.959 % | C_out 9.904 mg/m3 | dP 0.0341 Pa
+  211s
+
+=== [실험1] U = 1.5 m/s | 실현 3/5 ===
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  항력(액적 z>0) 4.31 3.89 3.23 uN | 기둥합 22.86 uN | Cd 오차 +5.4 %
+  A_col = 6.834 mm2 (직접법 6.608) | 부양 60/60 | 제거율 1.008 % | C_out 9.899 mg/m3 | dP 0.0340 Pa
+  177s
+
+=== [실험1] U = 1.5 m/s | 실현 4/5 ===
+Info    : Reading 'mesh_col_r3.msh'...
+Info    : 48 entities
+Info    : 9383 nodes
+Info    : 53655 elements
+Info    : Done reading 'mesh_col_r3.msh'
+  항력(액적 z>0) 4.29 3.87 3.22 uN | 기둥합 22.77 uN | Cd 오차 +5.1 %
+  A_col = 7.039 mm2 (직접법 5.768) | 부양 60/60 | 제거율 1.038 % | C_out 9.896 mg/m3 | dP 0.0339 Pa
+  161s
+
+=== [실험1] U = 1.5 m/s | 실현 5/5 ===
+Info    : Reading 'mesh_col_r4.msh'...
+Info    : 48 entities
+Info    : 8341 nodes
+Info    : 47611 elements
+Info    : Done reading 'mesh_col_r4.msh'
+  항력(액적 z>0) 4.28 3.86 3.23 uN | 기둥합 22.74 uN | Cd 오차 +4.8 %
+  A_col = 6.843 mm2 (직접법 7.112) | 부양 60/60 | 제거율 1.009 % | C_out 9.899 mg/m3 | dP 0.0338 Pa
+  152s
+
+=== [실험1] U = 2.0 m/s | 실현 1/5 ===
+Info    : Reading 'mesh_col_r0.msh'...
+Info    : 48 entities
+Info    : 14008 nodes
+Info    : 81198 elements
+Info    : Done reading 'mesh_col_r0.msh'
+  항력(액적 z>0) 6.86 6.17 5.09 uN | 기둥합 36.25 uN | Cd 오차 +6.0 %
+  A_col = 8.539 mm2 (직접법 8.232) | 부양 60/60 | 제거율 1.259 % | C_out 9.874 mg/m3 | dP 0.0539 Pa
+  240s
+
+=== [실험1] U = 2.0 m/s | 실현 2/5 ===
+Info    : Reading 'mesh_col_r1.msh'...
+Info    : 48 entities
+Info    : 12100 nodes
+Info    : 69874 elements
+Info    : Done reading 'mesh_col_r1.msh'
+  항력(액적 z>0) 6.87 6.17 5.11 uN | 기둥합 36.29 uN | Cd 오차 +6.2 %
+  A_col = 8.362 mm2 (직접법 8.792) | 부양 60/60 | 제거율 1.233 % | C_out 9.877 mg/m3 | dP 0.0540 Pa
+  198s
+
+=== [실험1] U = 2.0 m/s | 실현 3/5 ===
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  항력(액적 z>0) 6.81 6.14 5.09 uN | 기둥합 36.10 uN | Cd 오차 +5.3 %
+  A_col = 8.742 mm2 (직접법 8.736) | 부양 60/60 | 제거율 1.289 % | C_out 9.871 mg/m3 | dP 0.0537 Pa
+  174s
+
+=== [실험1] U = 2.0 m/s | 실현 4/5 ===
+Info    : Reading 'mesh_col_r3.msh'...
+Info    : 48 entities
+Info    : 9383 nodes
+Info    : 53655 elements
+Info    : Done reading 'mesh_col_r3.msh'
+  항력(액적 z>0) 6.78 6.11 5.05 uN | 기둥합 35.88 uN | Cd 오차 +4.8 %
+  A_col = 8.900 mm2 (직접법 7.280) | 부양 60/60 | 제거율 1.312 % | C_out 9.869 mg/m3 | dP 0.0534 Pa
+  161s
+
+=== [실험1] U = 2.0 m/s | 실현 5/5 ===
+Info    : Reading 'mesh_col_r4.msh'...
+Info    : 48 entities
+Info    : 8341 nodes
+Info    : 47611 elements
+Info    : Done reading 'mesh_col_r4.msh'
+  항력(액적 z>0) 6.76 6.06 5.06 uN | 기둥합 35.76 uN | Cd 오차 +4.4 %
+  A_col = 8.681 mm2 (직접법 8.344) | 부양 60/60 | 제거율 1.280 % | C_out 9.872 mg/m3 | dP 0.0532 Pa
+  147s
+
+=== [실험1] U = 2.5 m/s | 실현 1/5 ===
+Info    : Reading 'mesh_col_r0.msh'...
+Info    : 48 entities
+Info    : 14008 nodes
+Info    : 81198 elements
+Info    : Done reading 'mesh_col_r0.msh'
+  항력(액적 z>0) 9.28 8.81 7.25 uN | 기둥합 50.68 uN | Cd 오차 +0.1 %
+  A_col = 9.958 mm2 (직접법 9.800) | 부양 12/60 | 제거율 0.300 % | C_out 9.970 mg/m3 | dP 0.0754 Pa
+  253s
+
+=== [실험1] U = 2.5 m/s | 실현 2/5 ===
+Info    : Reading 'mesh_col_r1.msh'...
+Info    : 48 entities
+Info    : 12100 nodes
+Info    : 69874 elements
+Info    : Done reading 'mesh_col_r1.msh'
+  항력(액적 z>0) 9.26 8.80 7.28 uN | 기둥합 50.69 uN | Cd 오차 -0.1 %
+  A_col = 9.757 mm2 (직접법 10.080) | 부양 13/60 | 제거율 0.298 % | C_out 9.970 mg/m3 | dP 0.0754 Pa
+  283s
+
+=== [실험1] U = 2.5 m/s | 실현 3/5 ===
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  항력(액적 z>0) 9.08 8.38 7.26 uN | 기둥합 49.42 uN | Cd 오차 -2.1 %
+  A_col = 9.886 mm2 (직접법 10.192) | 부양 22/60 | 제거율 0.526 % | C_out 9.947 mg/m3 | dP 0.0735 Pa
+  254s
+
+=== [실험1] U = 2.5 m/s | 실현 4/5 ===
+Info    : Reading 'mesh_col_r3.msh'...
+Info    : 48 entities
+Info    : 9383 nodes
+Info    : 53655 elements
+Info    : Done reading 'mesh_col_r3.msh'
+  항력(액적 z>0) 9.12 8.35 7.20 uN | 기둥합 49.33 uN | Cd 오차 -1.7 %
+  A_col = 10.255 mm2 (직접법 8.848) | 부양 21/60 | 제거율 0.555 % | C_out 9.945 mg/m3 | dP 0.0734 Pa
+  246s
+
+=== [실험1] U = 2.5 m/s | 실현 5/5 ===
+Info    : Reading 'mesh_col_r4.msh'...
+Info    : 48 entities
+Info    : 8341 nodes
+Info    : 47611 elements
+Info    : Done reading 'mesh_col_r4.msh'
+  항력(액적 z>0) 9.16 8.59 7.17 uN | 기둥합 49.86 uN | Cd 오차 -1.1 %
+  A_col = 9.918 mm2 (직접법 9.520) | 부양 13/60 | 제거율 0.308 % | C_out 9.969 mg/m3 | dP 0.0742 Pa
+  204s
+
+=== [실험2] 유동해 (U=1.5 m/s, 실현 1/5) ===
+Info    : Reading 'mesh_col_r0.msh'...
+Info    : 48 entities
+Info    : 14008 nodes
+Info    : 81198 elements
+Info    : Done reading 'mesh_col_r0.msh'
+  V/V0=0.70 p0=1680 Pa | 부양 0/60 (축여유 0.63~0.80, 횡여유 0.83~1.29) | 제거율 0.000 % | C_out 10.000
+  V/V0=0.85 p0=2040 Pa | 부양 50/60 (축여유 0.92~1.18, 횡여유 1.22~1.90) | 제거율 0.834 % | C_out 9.917
+  V/V0=1.00 p0=2400 Pa | 부양 60/60 (축여유 1.28~1.63, 횡여유 1.69~2.63) | 제거율 0.970 % | C_out 9.903
+  V/V0=1.15 p0=2760 Pa | 부양 60/60 (축여유 1.69~2.16, 횡여유 2.23~3.47) | 제거율 1.017 % | C_out 9.898
+  V/V0=1.30 p0=3120 Pa | 부양 60/60 (축여유 2.16~2.76, 횡여유 2.85~4.44) | 제거율 1.001 % | C_out 9.900
+  630s
+
+=== [실험2] 유동해 (U=1.5 m/s, 실현 2/5) ===
+Info    : Reading 'mesh_col_r1.msh'...
+Info    : 48 entities
+Info    : 12100 nodes
+Info    : 69874 elements
+Info    : Done reading 'mesh_col_r1.msh'
+  V/V0=0.70 p0=1680 Pa | 부양 0/60 (축여유 0.63~0.80, 횡여유 0.83~1.29) | 제거율 0.000 % | C_out 10.000
+  V/V0=0.85 p0=2040 Pa | 부양 50/60 (축여유 0.92~1.18, 횡여유 1.22~1.90) | 제거율 0.863 % | C_out 9.914
+  V/V0=1.00 p0=2400 Pa | 부양 60/60 (축여유 1.28~1.63, 횡여유 1.69~2.63) | 제거율 1.048 % | C_out 9.895
+  V/V0=1.15 p0=2760 Pa | 부양 60/60 (축여유 1.69~2.16, 횡여유 2.23~3.47) | 제거율 1.011 % | C_out 9.899
+  V/V0=1.30 p0=3120 Pa | 부양 60/60 (축여유 2.16~2.76, 횡여유 2.85~4.44) | 제거율 1.001 % | C_out 9.900
+  534s
+
+=== [실험2] 유동해 (U=1.5 m/s, 실현 3/5) ===
+Info    : Reading 'mesh_col_r2.msh'...
+Info    : 48 entities
+Info    : 10592 nodes
+Info    : 60850 elements
+Info    : Done reading 'mesh_col_r2.msh'
+  V/V0=0.70 p0=1680 Pa | 부양 0/60 (축여유 0.63~0.80, 횡여유 0.83~1.29) | 제거율 0.000 % | C_out 10.000
+  V/V0=0.85 p0=2040 Pa | 부양 50/60 (축여유 0.92~1.18, 횡여유 1.22~1.90) | 제거율 0.854 % | C_out 9.915
+  V/V0=1.00 p0=2400 Pa | 부양 60/60 (축여유 1.28~1.63, 횡여유 1.69~2.63) | 제거율 1.022 % | C_out 9.898
+  V/V0=1.15 p0=2760 Pa | 부양 60/60 (축여유 1.69~2.16, 횡여유 2.24~3.48) | 제거율 1.019 % | C_out 9.898
+  V/V0=1.30 p0=3120 Pa | 부양 60/60 (축여유 2.16~2.76, 횡여유 2.86~4.45) | 제거율 0.966 % | C_out 9.903
+  497s
+
+=== [실험2] 유동해 (U=1.5 m/s, 실현 4/5) ===
+Info    : Reading 'mesh_col_r3.msh'...
+Info    : 48 entities
+Info    : 9383 nodes
+Info    : 53655 elements
+Info    : Done reading 'mesh_col_r3.msh'
+  V/V0=0.70 p0=1680 Pa | 부양 0/60 (축여유 0.63~0.80, 횡여유 0.83~1.29) | 제거율 0.000 % | C_out 10.000
+  V/V0=0.85 p0=2040 Pa | 부양 50/60 (축여유 0.92~1.18, 횡여유 1.23~1.91) | 제거율 0.869 % | C_out 9.913
+  V/V0=1.00 p0=2400 Pa | 부양 60/60 (축여유 1.28~1.63, 횡여유 1.70~2.64) | 제거율 1.016 % | C_out 9.898
+  V/V0=1.15 p0=2760 Pa | 부양 60/60 (축여유 1.69~2.16, 횡여유 2.25~3.49) | 제거율 1.023 % | C_out 9.898
+  V/V0=1.30 p0=3120 Pa | 부양 60/60 (축여유 2.16~2.76, 횡여유 2.87~4.47) | 제거율 0.974 % | C_out 9.903
+  486s
+
+=== [실험2] 유동해 (U=1.5 m/s, 실현 5/5) ===
+Info    : Reading 'mesh_col_r4.msh'...
+Info    : 48 entities
+Info    : 8341 nodes
+Info    : 47611 elements
+Info    : Done reading 'mesh_col_r4.msh'
+  V/V0=0.70 p0=1680 Pa | 부양 0/60 (축여유 0.63~0.80, 횡여유 0.83~1.29) | 제거율 0.000 % | C_out 10.000
+  V/V0=0.85 p0=2040 Pa | 부양 50/60 (축여유 0.92~1.18, 횡여유 1.22~1.91) | 제거율 0.869 % | C_out 9.913
+  V/V0=1.00 p0=2400 Pa | 부양 60/60 (축여유 1.28~1.63, 횡여유 1.69~2.64) | 제거율 1.014 % | C_out 9.899
+  V/V0=1.15 p0=2760 Pa | 부양 60/60 (축여유 1.69~2.16, 횡여유 2.24~3.49) | 제거율 1.004 % | C_out 9.900
+  V/V0=1.30 p0=3120 Pa | 부양 60/60 (축여유 2.16~2.76, 횡여유 2.86~4.46) | 제거율 1.001 % | C_out 9.900
+  469s
+
+ALL DONE  총 141.7 분

@@ -1,0 +1,19 @@
+{
+  "status": "interim_user_requested_fast_result",
+  "best_completed_verified_candidate": {
+    "Q_pC": 110,
+    "qp_fC": 5.563250269,
+    "U": 0.5,
+    "drive": 1.3,
+    "removal_finite_mixing": 0.5248443909043177,
+    "removal_perfect_mixing": 0.7083908690315861
+  },
+  "stability_highest_verified_pC": 127.5,
+  "maximum_not_finalized": true,
+  "limitations": [
+    "conditional rigid-droplet acoustic/Coulomb model",
+    "finite-mixing model assumed sigma=3.95 mm per layer",
+    "particle saturation charge and maintained droplet charge assumed",
+    "no lifetime or full-array CFD validation"
+  ]
+}
